@@ -1,0 +1,489 @@
+<html>
+  <head>
+    <title>STC project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="head">
+      <nav>
+        <a href="index.html">
+          <img style="width: 50px" src="images/paws.png" alt="" />
+        </a>
+        <a class="navcontent" href="#aboutus">About Us</a>
+        <a class="navcontent" href="#Articles">Articles</a>
+        <a class="navcontent" href="shop.html">Shop With Us</a>
+        <a class="navcontent" href="#supportus">Support Us</a>
+      </nav>
+      <div class="headtwo">
+        <h2 style="color: white">Even Cats Deserve a House</h2>
+        <p style="color: white">
+          They are cute, fun, and breathtaking. Aren't they ?
+          <br />
+          They deserve love, shelter, food, and to be taken care of. Don't they
+          ?
+          <br />
+          Take the opportunity to save a cat today, make a friend!
+        </p>
+        <button
+          onclick="window.location.href = 'animal-list.html'"
+          class="friend"
+        >
+          Make a Friend
+        </button>
+      </div>
+    </div>
+
+    <!--about us page-->
+
+    <div id="aboutus">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              style="
+                background-image: url(images/aboutus/moon.jpg);
+                width: 100%;
+                height: 100%;
+                color: white;
+              "
+            >
+              <h1 style="margin: 0px 0 0 140px; padding: 100px 0 0 0">
+                Who are we?
+              </h1>
+              <p style="margin: 20px 0 0 140px; width: 480px">
+                The STC project is a non-profit organization founded by
+                Abdelbari Bouroubi, our goal is to lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              style="
+                background-image: url(images/aboutus/how.jpg);
+                width: 100%;
+                height: 100%;
+                color: white;
+              "
+            >
+              <h1 style="margin: 0px 0 0 140px; padding: 100px 0 0 0">
+                How do we work?
+              </h1>
+              <p style="margin: 20px 0 0 140px; width: 480px">
+                We collect stray cats everywhere around Algeria then provide
+                them a shelter until someone adopts them, we DO NOT sell them
+                and will never encourage such act, we don't get rid of them
+                either until they find a partner, we also lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              style="
+                background-image: url(images/aboutus/where.jpg);
+                width: 100%;
+                height: 100%;
+                color: white;
+              "
+            >
+              <h1 style="margin: 0px 0 0 140px; padding: 100px 0 0 0">
+                Where to find us?
+              </h1>
+              <p style="margin: 20px 0 0 140px; width: 480px">
+                You can find us everywhere around Algeria, from Adrar to
+                Telemcen to Annaba, we have successfully spread our services all
+                around the county and we are proud of it!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="news" id="Articles">
+      <h4 style="text-align: center; color: white">
+        Know everything about these wonderful creatures
+      </h4>
+      <div class="newsletter">
+        <!-- first -->
+        <div class="news1">
+          <img style="width: 100%; height: 216px" src="images/news/cat.jpg" />
+          <h1 style="font-weight: bold; font-size: 20px; text-align: center">
+            8 Interesting Cat Facts For All Cat Lovers
+          </h1>
+          <p style="text-align: center; font-size: 13px; font-weight: 600">
+            Social gathering? Try these cat facts to get the conversation
+            flowing for all cat lovers!
+          </p>
+          <button
+            onclick="window.open('https://moderncat.com/articles/8-interesting-cat-facts-for-all-cat-lovers/')"
+            style="
+              border: solid red 2px;
+              border-radius: 10px;
+              background-color: transparent;
+              width: 70px;
+              height: 35px;
+              color: red;
+            "
+          >
+            Read
+          </button>
+        </div>
+        <!-- second -->
+        <div class="news1">
+          <img style="width: 100%; height: 216px" src="images/news/ninja.jpg" />
+          <h1 style="font-weight: bold; font-size: 20px; text-align: center">
+            Ninja Cats!
+          </h1>
+          <p style="text-align: center; font-size: 13px; font-weight: 600">
+            Japanese photographer, Hisakata Hiroyuki, captures incredible action
+            photos of cats, revealing them to be martial arts experts.
+          </p>
+          <button
+            onclick="window.open('https://moderncat.com/articles/ninja-cats/')"
+            style="
+              border: solid red 2px;
+              border-radius: 10px;
+              background-color: transparent;
+              width: 70px;
+              height: 35px;
+              color: red;
+            "
+          >
+            Read
+          </button>
+        </div>
+        <!-- third -->
+        <div class="news1">
+          <img style="width: 100%; height: 216px" src="images/news/bike.jpg" />
+          <h1 style="font-weight: bold; font-size: 20px; text-align: center">
+            One Bike, One Cat, One World
+          </h1>
+          <p style="text-align: center; font-size: 13px; font-weight: 600">
+            When Dean Nicholson left Dunbar, Scotland in September 2018 and
+            began his global cycling journey, he was not expecting a kitten to
+            change the course of his trip–and his life
+          </p>
+          <button
+            onclick="window.open('https://moderncat.com/articles/one-bike-one-cat-one-world/')"
+            style="
+              border: solid red 2px;
+              border-radius: 10px;
+              background-color: transparent;
+              width: 70px;
+              height: 35px;
+              color: red;
+            "
+          >
+            Read
+          </button>
+        </div>
+        <!-- forth -->
+        <div class="news1">
+          <img style="width: 100%; height: 216px" src="images/news/hero.jpg" />
+          <h1 style="font-weight: bold; font-size: 20px; text-align: center">
+            Hero Cats
+          </h1>
+          <p style="text-align: center; font-size: 13px; font-weight: 600">
+            Five heroic cats saved life and limb. From a child that choked to
+            death, to a man that would've lost his arm if not for his
+            neighbour's cat, these stories will warm your heart.
+          </p>
+          <button
+            style="
+              border: solid red 2px;
+              border-radius: 10px;
+              background-color: transparent;
+              width: 70px;
+              height: 35px;
+              color: red;
+            "
+            onclick="window.open('https://moderncat.com/articles/hero-cats/')"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div class="newsbtn">
+        <button
+          onclick="window.open('https://moderncat.com/articles/category/daily-meow/')"
+        ></button>
+      </div>
+    </div>
+
+    <!--support us-->
+
+    <div id="supportus">
+      <h1 style="text-align: center; padding: 60px 0 0 0">
+        Your Support Helps Us Grow
+      </h1>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          background-color: white;
+          width: 100%;
+          height: 250px;
+          margin: 20px 0 60px 0;
+        "
+      >
+        <button class="paypal-btn">
+          <img
+            src="images/donate/paypal.png"
+            style="height: auto; width: 20px"
+          />
+          Donate with PayPal
+        </button>
+        <button class="dahabia-btn">
+          <img
+            src="images/donate/dahabia.png"
+            style="height: auto; width: 40px"
+          />
+          Donate with ADAHABIA
+        </button>
+        <button onclick="window.open('shop.html')" class="aff-btn">
+          <img src="images/paws.png" style="height: auto; width: 30px" />
+          Purchase from our affiliate
+        </button>
+      </div>
+    </div>
+
+    <!-- support us modal-->
+
+    <!-- PAYPAL -->
+
+    <div class="suppmodal-bg">
+      <div class="suppmodal">
+        <span class="suppmodal-close">X</span>
+        <h4 style="padding: 50px 0 0 0">
+          We appreciate every little support !
+        </h4>
+        <div class="supp-inpt">
+          <div>
+            <label for="name">Enter your beautiful name</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="text">Leave a Note</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="text">Amount in USD</label>
+            <input type="number" />
+          </div>
+        </div>
+        <div class="supp-btn">
+          <button
+            style="
+              width: 100%;
+              height: 100%;
+              border-radius: 10px;
+              border: none;
+              background-color: #ffc439;
+            "
+          >
+            <img src="images/donate/paypal-logo.png" style="width: 100px" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDAHABIA -->
+
+    <div class="suppmodal-bg-dh">
+      <div class="suppmodal-dh">
+        <span class="suppmodal-close-dh">X</span>
+        <h4 style="padding: 50px 0 0 0">
+          We appreciate every little support !
+        </h4>
+        <div class="supp-inpt-dh">
+          <div>
+            <label for="name">Holder Name</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="text">Leave a Note</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="text">Amount in DZD</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label for="text">Card Number</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label for="text">mm/yy</label>
+            <input style="width: 70px" type="number" />
+            <label for="text">CVV</label>
+            <input style="width: 70px" type="number" />
+          </div>
+        </div>
+        <div class="supp-btn">
+          <button
+            style="
+              width: 100%;
+              height: 100%;
+              border-radius: 10px;
+              border: none;
+              background-color: #4948464d;
+            "
+          >
+            <img src="images/donate/card.png" style="width: 50px" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+
+    <footer>
+      <div class="foot">
+        <h2 style="color: white; font-weight: 400">Contact Us</h2>
+        <p style="color: white; font-weight: 400">
+          E-mail: example.example@example.com
+        </p>
+        <p style="color: white; font-weight: 400">+213 xxx-xxx-xxx</p>
+      </div>
+      <div class="foot">
+        <h2 style="color: white; font-weight: 400">Follow us</h2>
+        <p>
+          <img src="images/meta.svg" alt="" />
+          <a
+            style="
+              text-decoration: none;
+
+              color: white;
+            "
+            href="https://www.facebook.com/"
+            >Facebook</a
+          >
+        </p>
+        <p>
+          <img src="images/twitter.svg" alt="" />
+          <a
+            style="
+              text-decoration: none;
+
+              color: white;
+            "
+            href="https://twitter.com/"
+            >Twitter</a
+          >
+        </p>
+        <p>
+          <img src="images/instagram.svg" alt="" />
+          <a
+            style="
+              text-decoration: none;
+
+              color: white;
+            "
+            href="https://www.instagram.com/?hl=fr"
+            >Instagram</a
+          >
+        </p>
+        <p>
+          <img src="images/linkedin.svg" alt="" />
+          <a
+            style="
+              text-decoration: none;
+
+              color: white;
+            "
+            href="https://fr.linkedin.com/"
+            >Linkedin</a
+          >
+        </p>
+      </div>
+      <div class="foot">
+        <h2 style="color: white; font-weight: 400">Visit Us</h2>
+        <p>
+          <img src="images/geo-alt.svg" alt="" />
+          <a
+            style="
+              text-decoration: none;
+
+              color: white;
+            "
+            href="https://www.google.com/maps/?hl=fr"
+            >Petspace</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

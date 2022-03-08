@@ -1,0 +1,246 @@
+body,
+html {
+  padding: 0 !important;
+  margin: 0 !important;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  background-image: url(images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0d6efd;
+}
+.navcontent {
+  text-decoration: none;
+  color: white;
+}
+.headtwo {
+  padding-top: 250px;
+  padding-left: 880px;
+}
+.friend {
+  background-color: rgb(219, 30, 30);
+  color: white;
+  border-style: solid;
+  border-color: rgb(219, 30, 30);
+  border-radius: 30px;
+  border-width: 9px;
+  margin-bottom: 250px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.friend:hover {
+  transition: 290ms ease-in-out;
+  transform: scale(1.1);
+}
+.carousel {
+  height: 520px;
+}
+.carobg {
+  width: 100%;
+  height: 100%;
+}
+.news {
+  background-color: rgb(189, 153, 107);
+  background-size: 100%;
+  width: 97%;
+  height: auto;
+  padding: 40px 0 50px 0;
+  margin: 20px 0 0 1.5%;
+}
+.newsletter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.news1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 300px;
+  height: 380px;
+  cursor: pointer;
+}
+.news1:hover {
+  transition: 290ms ease-in-out;
+  transform: scale(1.03);
+}
+.news1 img:hover {
+  transition: 290ms ease-in-out;
+  transform: scale(1.03);
+}
+.news1 h1:hover {
+  color: #f04a2d;
+  transition: 290ms ease-in-out;
+  transform: scale(1.03);
+}
+.news1 p:hover {
+  transition: 290ms ease-in-out;
+  transform: scale(1.05);
+}
+.news1 button:hover {
+  transition: 290ms ease-in-out;
+  transform: scale(1.05);
+  background-color: red !important;
+  color: white !important;
+}
+.newsbtn {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+.newsbtn button {
+  border: 0;
+  width: 300px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  transform: skew(-20deg);
+}
+.newsbtn button::before {
+  content: "More Daily Meow";
+  position: absolute;
+  background-color: transparent;
+  z-index: -1;
+  top: 8px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: skew(20deg);
+}
+.newsbtn button:hover {
+  background: transparent;
+  border: solid 2px red;
+  color: red;
+}
+.paypal-btn {
+  border: solid 1px #3b7bbf;
+  border-radius: 30px;
+  background-color: transparent;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.paypal-btn:hover {
+  background-color: #3b7bbf;
+  color: white;
+  transition: 290ms ease-in-out;
+  transform: scale(1.01);
+}
+.dahabia-btn {
+  border: solid 1px #003268;
+  border-radius: 30px;
+  background-color: transparent;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.dahabia-btn:hover {
+  background-color: #003268;
+  color: white;
+  transition: 290ms ease-in-out;
+  transform: scale(1.01);
+}
+.aff-btn {
+  border: solid 1px rgb(153, 224, 47);
+  border-radius: 30px;
+  background-color: transparent;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.aff-btn:hover {
+  background-color: rgb(153, 224, 47);
+  color: white;
+  transition: 290ms ease-in-out;
+  transform: scale(1.01);
+}
+.suppmodal-bg,
+.suppmodal-bg-dh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+}
+.suppmodal,
+.suppmodal-dh {
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.suppmodal-active,
+.suppmodal-active-dh {
+  visibility: visible;
+  opacity: 1;
+}
+.suppmodal-close,
+.suppmodal-close-dh {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.supp-inpt {
+  background: none;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 150px 0 0;
+  justify-content: space-around;
+}
+.supp-btn {
+  display: flex;
+  width: 97%;
+  height: 50px;
+  margin: 0 0 30px 0;
+}
+.supp-inpt-dh {
+  background: none;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 150px 0 0;
+  justify-content: space-around;
+}

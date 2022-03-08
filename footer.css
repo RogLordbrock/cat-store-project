@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/footercat.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-right: 100px;
+  }
+  .foot {
+    display: block;
+    margin: 50px 0 50px 0;
+  }
